@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://miro.medium.com/max/1000/0*pwDqZoXvHo79MoT7.png);
+}
+
+header {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid lightblue;
+}
+
+.title {
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    background-color: white;
+    border-radius: 10px;
+    align-items: center;
+    width: 200px;
+}
+
+button {
+    width: 150px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid lightblue;
+}
+
+.results {
+    width: 600px;
+    height: 250px;
+    margin: 250px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    border: 5px solid lightblue;
+}
+
+.results h1 {
+    color: rgb(49, 201, 49);
+}
